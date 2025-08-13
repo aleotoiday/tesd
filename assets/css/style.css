@@ -174,33 +174,6 @@ h1>.magic>.magic-text {
     -webkit-text-fill-color: transparent;
     white-space: nowrap;
 }
-.card {
-  position: relative;
-  display: block; 
-  background: #0f0f12;
-  border-radius: 12px;
-  padding: 16px;
-  width: 300px;
-  color: #fff;
-  text-decoration: none; 
-  overflow: hidden;
-}
-
-.card h2 {
-  position: relative;
-  z-index: 2;
-  margin: 0;
-}
-
-.bg-ribbon {
-  position: absolute;
-  bottom: 0;      
-  right: 0;       
-  width: 100px;   
-  z-index: 1;
-  opacity: 0.8;
-  pointer-events: none;
-}
 
 @keyframes rotate {
     from {
@@ -829,5 +802,3 @@ html:not(.dark) .close-btn {
     height: 153px;
     object-fit: cover;
 }
-
-
