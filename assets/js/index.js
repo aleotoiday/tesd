@@ -105,9 +105,7 @@
         $("html, body").animate({
             scrollTop: 0
         }, "fast")
-    }),
-    var d = 0,
-        u = ["#ff6651", "#42a5f5", "#66bb6a", "#ab47bc", "#ffa726", "#ec407a", "#26c6da", "#78909c", "#ffca28", "#5c6bc0", "#8d6e63", "#26a69a"];
+    }), 
     class p {
         constructor(n) {
             this.element = $(n), this.TimeNows(), setInterval(() => this.TimeNows(), 1e3)
